@@ -26,30 +26,31 @@
                 </div>
                 <div class="modal-body">
 
-                   <form action="">
-                    <div class="mb-3 row form-group">
-                        <label for="inputLoginEmail" class="col-sm-2 col-form-label">Email</label>
-                        <div class="col-sm-10">
-                          <input type="email" readonly class="form-control" id="inputLoginEmail" placeholder="email@example.com">
+                    <form action="">
+                        <div class="mb-3 row form-group">
+                            <label for="inputLoginEmail" class="col-sm-2 col-form-label">Email</label>
+                            <div class="col-sm-10">
+                                <input type="email" readonly class="form-control" id="inputLoginEmail"
+                                    placeholder="email@example.com">
+                            </div>
                         </div>
-                     </div>
-                      <div class="mb-3 row form-group">
-                        <label for="inputSenha" class="col-sm-2 col-form-label">Password</label>
-                        <div class="col-sm-10">
-                          <input type="password" class="form-control" id="inputSenha">
+                        <div class="mb-3 row form-group">
+                            <label for="inputSenha" class="col-sm-2 col-form-label">Password</label>
+                            <div class="col-sm-10">
+                                <input type="password" class="form-control" id="inputSenha">
+                            </div>
                         </div>
-                      </div>
-                      <button type="submit" class="btn btn-primary m-3">Entrar na conta</button>
-                      <small class="form-text text-muted">Esqueceu a senha? <a href="">clique aqui</a></small>
-                   </form>
+                        <button type="submit" class="btn btn-primary m-3">Entrar na conta</button>
+                        <small class="form-text text-muted">Esqueceu a senha? <a href="">clique aqui</a></small>
+                    </form>
                 </div>
-               
+
             </div>
         </div>
     </div>
     <!-- fecha modal -->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top p-3 box-shadow">
-        <a href="index.html" class="navbar-brand rr">Regina Reborn</a>
+        <a href="index.html" class="navbar-brand rr">Regina Reborn - Planos</a>
         <!-- <img src="" alt="logo"> -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -58,7 +59,7 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mleft">
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="local.html" id="navbarDarkDropdownMenuLink" role="button"
+                    <a class="nav-link dropdown-toggle " href="local.html" id="navbarDarkDropdownMenuLink" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
                         Locais
                     </a>
@@ -68,154 +69,90 @@
                         <li><a class="dropdown-item" href="local.html">Doblin</a></li>
                     </ul>
                 </li>
-                <li class="nav-item"><a class="nav-link" href="planos.html" id="navbarDarkDropdownMenuLink" role="button"
+                <li class="nav-item"><a class="nav-link active" href="#" id="navbarDarkDropdownMenuLink" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false"></a>
 
                 </li>
-                <li class="nav-item"><a class="nav-link" href="planos.html">Planos</a></li>
-                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
-                <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a></li>
+                <li class="nav-item"><a class="nav-link " href="planos.html">Planos</a></li>
+                <li class="nav-item"><a class="nav-link active" href="#">Contato</a></li>
+                <li class="nav-item"><a class="nav-link" href="#" data-bs-toggle="modal"
+                        data-bs-target="#loginModal">Login</a></li>
                 <li class="nav-item"><a class="nav-link" href="banco.html">Conta Pessoal</a></li>
-                <li class="nav-item btn btn-outline-primary ml-md2"><a class="increva.html" href="">Increva-se</a></li>
+                <li class="nav-item btn btn-outline-primary ml-md2"><a class="" href="">Increva-se</a></li>
 
             </ul>
         </div>
 
     </nav>
 
-    <section class="container-fluid ">
-        <div class="row bg-dark text-white">
-            <div class="col-lg-7 p-0">
-                <div id="carouselCidades" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators">
-                        <li type="button" data-bs-target="#carouselCidades" data-bs-slide-to="0" class="active"
-                            aria-current="true" aria-label="Slide 0"></li>
-                        <li type="button" data-bs-target="#carouselCidades" data-bs-slide-to="1" class=""
-                            aria-current="true" aria-label="Slide 1"></li>
-                        <li type="button" data-bs-target="#carouselCidades" data-bs-slide-to="2" class=""
-                            aria-current="true" aria-label="Slide 2"></li>
-                    </ol>
 
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="imagens/california.jpg" class="d-block w-100" alt="California">
-                            <div class="carousel-caption  d-md-block">
-                                <h3 class="display-4">California</h3>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagens/paris.jpg" class="d-block w-100" alt="Paris">
-                            <div class="carousel-caption  d-md-block">
-                                <h3 class="display-4">Paris</h3>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="imagens/dublin.jpg" class="d-block w-100" alt="Dublin">
-                            <div class="carousel-caption  d-md-block">
-                                <h3 class="display-4">Dublin</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCidades"
-                        data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCidades"
-                        data-bs-slide="next">
-                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-            </div>
+    </section>
 
-            <div class="col-lg-5 p-4 align-self-center">
-                <h1 class="display-4 ">Realize seu sonho de ter um bebê que nunca cresce</h1>
-                <p class="lead">Sem malcriação, sem bateção de boca, sem problemas de adolescente, e o melhor, sem bosta
-                    para limpar.</p>
-                <form action="">
-                    <div class="input-group input-group-lm">
-                        <input type="text" class="form-control" placeholder="solicite por e-mail"
-                            aria-label="Recipient's username with two button addons">
-                        <span class="input-group-append">
-                            <button class="btn btn-primary" type="button">Solicite a sua</button>
-                        </span>
+    <section class="container">
+
+        <div class=" text-center my-5">
+            <span class="h6 d-block ">Possui alguma dúvida?</span>
+            <h1 class="display-4 text-primary">Fale conosco</h1>
+        </div>
+        <div class="row ">
+            <div class="col-lg mb-5 ">
+                <form class="bg-light rounded box-shadow p-4 " action="">
+
+
+                    <div>
+                        <label for="clienteNome" class="form-label">Nome</label>
+                        <input type="email" class="form-control" id="clienteNome">
                     </div>
 
+                    <div class="form-group">
+                        <label for="clienteEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="clienteEmail">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="clienteMensagem" class="form-label">mensagem</label>
+                        <textarea class="form-control" name="" id="clienteMensagem" rows="4"></textarea>
+
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </div>
 
                 </form>
             </div>
 
+            <div class="col-lg">
+                <h2 class="h6">Nosso endereço</h2>
+                <a href=""><img class="img-fluid box-shadow rounded mb-4" src="imagens/mapa.png" alt=""></a>
+
+                <h2 class="h6">Dados de contato</h2>
+                                 
+                    <ul class="list-unstyled text-secondary mt-3">
+                        <li>erica.manager@gmail.com</li>
+                        <li>Tel: (19) 98701-8258</li>
+                        <li>erica.manager@gmail.com</li>
+                        <li>erica.manager@gmail.com</li>
+                    </ul>
+               
+                
+                    <h4>Redes sociais</h4>
+
+                    <ul class="list-unstyled" style="max-width: 260px;">
+                        <li><a class="btn btn-outline-secondary btn-sm mb-2 btn-block"  href=""
+                                >Facebook</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm mb-2 btn-block" href=""
+                                >Instagran</a></li>
+                        <li><a class="btn btn-outline-secondary btn-sm mb-2 btn-block" href=""
+                                >Twiter</a></li>
+
+                    </ul>
+                
+            </div>
+
         </div>
-
     </section>
 
-    <section class="container py-5 bg-light text-center">
-        <div class="container  py-4">
-            <div class="my-5">
-                <span class="h6 d-block ">Tudo de melhor para você</span>
-                <h2 class="display-4 text-primary">Aproveite as promoções</h2>
-            </div>
-            <div class="row">
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/passaporte.svg" alt="">
-                    </div>
-                    <h3>Documentos</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/passagens.svg" alt="">
-                    </div>
-                    <h3>passagens</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/translado.svg" alt="">
-                    </div>
-                    <h3>Transporte</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-
-            </div>
-
-            <div class="row">
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/turismo.svg" alt="">
-                    </div>
-                    <h3>Turismo</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/praias.svg" alt="">
-                    </div>
-                    <h3>Praias</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-                <div class="col-xl-4 col-md-6">
-                    <div class="d-flex justify-content-center" style="height:100px">
-                        <img src="imagens/icones/bagagens.svg" alt="">
-                    </div>
-                    <h3>Bagangens</h3>
-                    <p>consectetur adipisicing elit. Adipisci quis magnam molestiae</p>
-                </div>
-
-            </div>
-            <a href="" class="btn btn-primary btn-lg mt-5">Compra item</a>
-        </div>
-
-    </section>
-    <section class="home-quote p-4">
-        <blockquote class="blockquote text-center text-white  p-md-5"><em class="display-4">"A felicidade está nas
-                pequenas coisas".</em>
-            <footer class="blockquote-footer text-white p5 mt-5">Érica</footer>
-        </blockquote>
-    </section>
-
+    <!-- Perguntas frequentes -->
     <section class="container">
         <div class="my-5 text-center">
             <span class="h6 d-block ">Ainda está com dúvidas?</span>
@@ -298,7 +235,11 @@
 
     </section>
 
-    <footer class="bg-dark text-white  mt-5">
+
+
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white  posiFooter ">
         <div class="container py-4">
             <div class="row">
                 <div class="col-md-3 col-6">
