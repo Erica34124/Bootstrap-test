@@ -20,8 +20,9 @@
     margin-left: auto;
 }
 body{
-    height: 3000px;
+    
     padding-top: 72px;
+    height: auto;
 }
 .rr{
     font-weight: bold;
