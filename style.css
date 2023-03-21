@@ -26,10 +26,10 @@ body{
 }
 .rr{
     font-weight: bold;
-    text-shadow: 0.1em 0.1em 0.05em rgb(228, 162, 202);
+    text-shadow: 0.1em 0.1em 0.05em rgb(93, 82, 215);
 }
 .box-shadow{
-    box-shadow: 0 2px 4px 0 rgb(0,0,0,0.5), 0 4px 8px 0 rgb(0,0,0,0.5)
+    box-shadow: 0 2px 4px 0 rgba(162, 26, 135, 0.5), 0 4px 8px 0 rgba(54, 16, 178, 0.5)
 }
 .home-quote{
     background-image: url(imagens/bg-quote.jpg) ;
@@ -41,7 +41,7 @@ body{
 }
 .borda li + li{
     
-    border-top: 1px solid rgb(0,0,0,0.2);
+    border-top: 1px solid rgba(157, 32, 32, 0.2);
 }
 .borda li{
     padding: 1rem ;
@@ -64,4 +64,7 @@ body{
 
     } */
     
+}
+#corFundo{
+    background-color: rgb(112, 131, 212);
 }

@@ -211,7 +211,7 @@ small, .small {
 
 mark, .mark {
   padding: 0.2em;
-  background-color: #fcf8e3;
+  background-color: #ac972b;
 }
 
 sub,
@@ -279,7 +279,7 @@ kbd {
   padding: 0.2rem 0.4rem;
   font-size: 0.875em;
   color: #fff;
-  background-color: #212529;
+  background-color: #4585c4;
   border-radius: 0.2rem;
 }
 kbd kbd {
@@ -2178,7 +2178,7 @@ progress {
 .form-text {
   margin-top: 0.25rem;
   font-size: 0.875em;
-  color: #6c757d;
+  color: #01080e;
 }
 
 .form-control {
@@ -2188,7 +2188,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #1e6dbd;
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
@@ -3134,7 +3134,7 @@ textarea.form-control-lg {
   border-color: #ffc107;
 }
 .btn-warning:hover {
-  color: #000;
+  color: rgb(121, 17, 17);
   background-color: #ffca2c;
   border-color: #ffc720;
 }
